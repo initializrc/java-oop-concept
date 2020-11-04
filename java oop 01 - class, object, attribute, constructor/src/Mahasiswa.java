@@ -1,5 +1,3 @@
-import sun.applet.Main;
-
 public class Mahasiswa {
 
     private String nama;
