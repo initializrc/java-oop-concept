@@ -21,8 +21,18 @@ public class Mahasiswa {
         this.ipk = ipk;
     }
 
-    // cara mengakses attribute yang private dengan menggunakan getter and setter
+    // method baru
+    void belajar (float jam){
+        // ipk = ipk + (jam/50);
+        // sama saja
+        ipk += (jam/50);
+    }
 
+    public static void tambahMahasiswa(){
+        jumlah++;
+    }
+
+    // cara mengakses attribute yang private dengan menggunakan getter and setter
     // getter mendapatkan value dari attribute class mahasiswa
     public String getNama() {
         return nama;
@@ -63,6 +73,7 @@ public class Mahasiswa {
     final double constant = 10;
 
     // static adalah penanda bahwa attibute tersebut milik dari sebuah class
+    // static variabel
     static int jumlah;
 
     // gabungan
