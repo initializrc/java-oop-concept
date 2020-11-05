@@ -4,6 +4,7 @@ public class Manusia {
     private int umur;
 
     public Manusia(String nama, int umur) {
+    //    super(); // untuk di class parent tidak memakai super tidak pengaruh
         this.nama = nama;
         this.umur = umur;
     }
