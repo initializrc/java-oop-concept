@@ -3,10 +3,14 @@ public class Mahasiswa extends Manusia{
     private String nim;
     private float ipk;
 
-    public Mahasiswa(int umur, String nama, String nim, float ipk) {
+    public Mahasiswa(String nama, int umur, String nim, float ipk) {
         super(nama, umur); // super untuk akses constructor di class parent
         this.nim = nim;
         this.ipk = ipk;
+    }
+
+    public void belajar(){
+        this.ipk += 0.1;
     }
 
     public String getNim() {
