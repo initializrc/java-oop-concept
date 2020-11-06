@@ -54,7 +54,7 @@ public class Main {
 
         System.out.println();
 
-        // print semua data menggunakan for ada dua cara
+        // print semua data arraylist menggunakan for ada dua cara
         // cara 1
         System.out.println();
         for (int i = 0; i < listMahasiswa.size(); i++){
