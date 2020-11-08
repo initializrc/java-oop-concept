@@ -31,7 +31,7 @@ public class Mahasiswa extends Manusia {
     // tinggal disesuaikan kebutuhan
     public void belajar(float lama){
         this.ipk += (lama/50);
-        System.out.println(this.nama + " belajar selama " + lama + " jama.");
+        System.out.println(this.nama + " belajar selama " + lama + " jam.");
     }
 
     // method belajar dengan 2 parameter
