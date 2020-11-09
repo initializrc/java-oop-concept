@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// membuat template dengan karakteristik ArrayList
 public class GenericClass<E>{
     ArrayList<E> list = new ArrayList<E>();
 
