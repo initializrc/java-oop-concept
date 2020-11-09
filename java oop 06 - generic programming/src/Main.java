@@ -18,5 +18,16 @@ public class Main {
         myStack2.push(30);
         System.out.println(myStack2.getSize());
         System.out.println(myStack2.pop());
+
+        Integer[] numberArray = {2,4,6,8,10};
+        String[] wordArray = {"Negara", "Republik", "Kesatuan", "Indonesia"};
+
+        System.out.println("\n");
+
+        // method dengan tipe data Integer
+        GenericClass.print(numberArray);
+
+        // method dengan tipe data String
+        GenericClass.print(wordArray);
     }
 }
