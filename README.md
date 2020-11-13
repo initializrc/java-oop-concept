@@ -2,11 +2,11 @@
 
 <br>
 
-### Object Oriented Programming 
+## Object Oriented Programming 
 
-	Object Oriented Programming is a programming paradigm used by industries when developing an Application Program. The main feature of Object-Oriented Programming comprises ADT (Abstract Data Type), Inheritance, Dynamic Binding to implement true polymirphism, Generic Programming and else.
+> Object Oriented Programming is a programming paradigm used by industries when developing an Application Program. The main feature of Object-Oriented Programming comprises ADT (Abstract Data Type), Inheritance, Dynamic Binding to implement true polymirphism, Generic Programming and else.
 
-### Konsep OOP
+## Konsep OOP
 
 1. Class & Object
 
@@ -17,7 +17,7 @@
 	Class adalah tipe data, sedangkan object adalah variabel. Dari class Mahasiswa tersebut akan dibuat object seperti Anto, Bella dan object mahasiswa lainnya.
 
 2. Encapsulation 
-	- Class membungkus attribute dan member fucntion ke dalam object. tujuannya untuk information hiding.
+	- Class membungkus attribute dan member function ke dalam object. Tujuannya untuk information hiding.
 3. Inheritance
 	- Membuat tipe class baru dari tipe class yang sudah ada (Pewarisan).
 4. Polymorphism
