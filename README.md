@@ -1,33 +1,29 @@
-# Java-OOP-Concept
+# __java-oop-concept__
 
-Object Oriented Programming 
+<br>
 
-Object Oriented Programming is a programming paradigm used by industries when developing an Application Program.
-The main feature of Object-Oriented Programming comprises ADT (Abstract Data Type), Inheritance, Dynamic Binding to
-implement true polymirphism, Generic Programming and else.
+### Object Oriented Programming 
 
-Konsep OOP
+	Object Oriented Programming is a programming paradigm used by industries when developing an Application Program. The main feature of Object-Oriented Programming comprises ADT (Abstract Data Type), Inheritance, Dynamic Binding to implement true polymirphism, Generic Programming and else.
 
-Class -> template untuk membuat object. Class terdiri dari data member dan member function.
-Object -> instansiasi dari class.
-Class adalah tipe data, sedangkan object adalah variabel
+### Konsep OOP
 
-Contoh : 
-Class Mahasiswa terdiri dari:
-	- Data member: NIM, Nama, IPK.
-	- Member function: belajar.
+1. Class & Object
 
-Dari class Mahasiswa tersebut akan dibuat object seperti Anto, Bella dan object mahasiswa lainnya.
+	- Class ialah template untuk membuat object. Class terdiri dari data member dan member function. Contoh class Mahasiswa terdiri dari:
+		- Data member: NIM, Nama, IPK.
+		- Member function: belajar.
+	- Object merupakan instansiasi dari class.
+	Class adalah tipe data, sedangkan object adalah variabel. Dari class Mahasiswa tersebut akan dibuat object seperti Anto, Bella dan object mahasiswa lainnya.
 
-Konsep OOP :
-1. Encapsulation
-   Class membungkus attribute dan member fucntion ke dalam object. tujuuuannya untuk information hiding
-2. Inheritance
-   Membuat tipe class baru dari tipe class yang sudah ada.
-3. Polymorphism
-	a. Overloading
+2. Encapsulation 
+	- Class membungkus attribute dan member fucntion ke dalam object. tujuannya untuk information hiding.
+3. Inheritance
+	- Membuat tipe class baru dari tipe class yang sudah ada (Pewarisan).
+4. Polymorphism
+	- Overloading
 	   Nama fungsi sama, parameter berbeda. Parameter dibedakan dari jumlah parameter, tipe data parameter, urutan parameter.
-	b. Overriding
+	- Overriding
 	   Nama fungsi sama namun isi fungsinya berbeda. Biasanya diterapkan ke class yang memiliki inheritance.
 
 Setter -> function yang digunakan untuk memberi nilai ke data member.
