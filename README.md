@@ -1,10 +1,13 @@
 # __java-oop-concept__
 
-<br>
+<hr>
 
 ## Object Oriented Programming 
 
 > Object Oriented Programming is a programming paradigm used by industries when developing an Application Program. The main feature of Object-Oriented Programming comprises ADT (Abstract Data Type), Inheritance, Dynamic Binding to implement true polymirphism, Generic Programming and else.
+
+<br>
+<hr>
 
 ## Konsep OOP
 
@@ -16,23 +19,27 @@
 	- Object merupakan instansiasi dari class.
 	Class adalah tipe data, sedangkan object adalah variabel. Dari class Mahasiswa tersebut akan dibuat object seperti Anto, Bella dan object mahasiswa lainnya.
 
-2. Encapsulation 
+2. Constructor 
+	- Merupakan function khusus yang mendeskripsikan bagaimana instansiasi dari class dibentuk.
+	ketika membuat instansiasi dari class, maka  constructor akan pertama kali dipanggil secara default, constructor telah ada. Constructor dapat juga dibuat (*user-defined constructor*) dan dapat di *overloading*
+
+3. Encapsulation 
 	- Class membungkus attribute dan member function ke dalam object. Tujuannya untuk information hiding.
-3. Inheritance
+
+4. Getter & Setter
+	- Getter -> function yang digunakan untuk memperoleh nilai data member.
+	- Setter -> function yang digunakan untuk memberi nilai ke data member.
+
+5. Inheritance
 	- Membuat tipe class baru dari tipe class yang sudah ada (Pewarisan).
-4. Polymorphism
+
+6. Polymorphism
 	- Overloading
 	   Nama fungsi sama, parameter berbeda. Parameter dibedakan dari jumlah parameter, tipe data parameter, urutan parameter.
 	- Overriding
-	   Nama fungsi sama namun isi fungsinya berbeda. Biasanya diterapkan ke class yang memiliki inheritance.
+	   Nama fungsi sama namun isi fungsinya berbeda. Biasanya diterapkan ke class yang memiliki inheritance. Bertujuan untuk mengubah *behavior* dari *method parent class* dengan *behavior method child class*.
 
-Setter -> function yang digunakan untuk memberi nilai ke data member.
-Getter -> function yang digunakan untuk memperoleh nilai data member.
 
-Constructor -> function khusus yang mendeskripsikan bagaimana instansiasi dari class dibentuk.
-ketika membuat instansiasi dari class, maka  constructor akan pertama kali dipanggil
-secara default, constructor telah ada.
-constructor dapat juga dibuat (user-defined constructor) dan dapat di overloading
 
 Access Modifier
 1. private: hanya dapat diakses oleh class sendiri.
