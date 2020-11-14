@@ -54,10 +54,7 @@ protected |	Y |	Y |	Y |	N
 no access |	Y |	Y |	N |	N
 private | Y | N | N | N
 
-
-
-
-
+<hr>
 Generic Programming
 Generic class atau generic method memungkinkan kita untuk memanggil tipe object yang dapat dibaca oleh class / method.
 Dengan penggunaan generic, kita dapat mengimplementasikan algoritma yang bekerja pada tipe object berbeda.
