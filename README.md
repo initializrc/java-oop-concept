@@ -47,14 +47,16 @@
 	- public: dapat di akses ke semua class dan package
 	- no access modifier: dapat di akses pada class dan package yang sama
 
+	<br>
+
 	| Access Modifier | Class | Package | Subclass | Other Package |
-	| :------------- | :---: | :-----: | :------: | :-----------: |
+	| :-------------- | :---: | :-----: | :------: | :-----------: |
 	| public          |   Y   |	   Y    |	  Y    |	   Y       | 
 	| protected       |	  Y   |	   Y    |	  Y    |	   N	   |
 	| no access 	  |	  Y   |	   Y    |	  N    |	   N	   |
 	| private 		  |   Y   |    N    |     N    |       N       |
 
-<hr>
-Generic Programming
-Generic class atau generic method memungkinkan kita untuk memanggil tipe object yang dapat dibaca oleh class / method.
-Dengan penggunaan generic, kita dapat mengimplementasikan algoritma yang bekerja pada tipe object berbeda.
+<br>
+
+8. Generic Programming
+	- Generic class atau generic method memungkinkan kita untuk memanggil tipe object yang dapat dibaca oleh class / method. Dengan penggunaan generic, kita dapat mengimplementasikan algoritma yang bekerja pada tipe object berbeda.
