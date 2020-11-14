@@ -47,12 +47,12 @@
 	- public: dapat di akses ke semua class dan package
 	- no access modifier: dapat di akses pada class dan package yang sama
 
-| Access Modifier | Class | Package | Subclass | Other Package |
-| :------------- | :---: | :-----: | :------: | :-----------: |
-| public          |   Y   |	   Y    |	  Y    |	   Y       | 
-| protected       |	  Y   |	   Y    |	  Y    |	   N	   |
-| no access 	  |	  Y   |	   Y    |	  N    |	   N	   |
-| private 		  |   Y   |    N    |     N    |       N       |
+	| Access Modifier | Class | Package | Subclass | Other Package |
+	| :------------- | :---: | :-----: | :------: | :-----------: |
+	| public          |   Y   |	   Y    |	  Y    |	   Y       | 
+	| protected       |	  Y   |	   Y    |	  Y    |	   N	   |
+	| no access 	  |	  Y   |	   Y    |	  N    |	   N	   |
+	| private 		  |   Y   |    N    |     N    |       N       |
 
 <hr>
 Generic Programming
