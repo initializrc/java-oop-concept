@@ -41,11 +41,11 @@
 
 
 
-Access Modifier
-1. private: hanya dapat diakses oleh class sendiri.
-2. protected: hanya dapat diakses oleh class sendiri dan subclass
-3. public: dapat di akses ke semua class dan package
-4. no access modifier: dapat di akses pada class dan package yang sama
+7. Access Modifier
+	- private: hanya dapat diakses oleh class sendiri.
+	- protected: hanya dapat diakses oleh class sendiri dan subclass.
+	- public: dapat di akses ke semua class dan package
+	- no access modifier: dapat di akses pada class dan package yang sama
 
 Access Modifier	class	package	subclass  otherpackage
 public		Y	Y	Y		Y
