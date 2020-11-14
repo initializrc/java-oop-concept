@@ -51,10 +51,10 @@
 
 	| Access Modifier | Class | Package | Subclass | Other Package |
 	| :-------------- | :---: | :-----: | :------: | :-----------: |
-	| public          |   Y   |	   Y    |	  Y    |	   Y       | 
-	| protected       |	  Y   |	   Y    |	  Y    |	   N	   |
-	| no access 	  |	  Y   |	   Y    |	  N    |	   N	   |
-	| private 		  |   Y   |    N    |     N    |       N       |
+	| public          |   Y   |    Y    |     Y    |       Y       |
+	| protected       |   Y   |    Y    |     Y    |       N       |
+	| no access       |   Y   |    Y    |     N    |       N       |
+	| private         |   Y   |    N    |     N    |       N       |
 
 <br>
 
